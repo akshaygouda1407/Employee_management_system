@@ -15,6 +15,6 @@ public class EmsBackendApplication {
 
 	@Bean
 	public WebServerFactoryCustomizer<ConfigurableServletWebServerFactory> webServerFactoryCustomizer() {
-		return factory -> factory.setPort(8081);
+		return factory -> factory.setPort(8082);
 	}
 }
